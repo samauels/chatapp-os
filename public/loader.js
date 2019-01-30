@@ -1,0 +1,1 @@
+var d,i,s,w,x,j,y;d=document;i=d.createElement('iframe');i.style.display='none';d.body.appendChild(i);w=i.contentWindow;y=w.widget={};y.frame=i;y.host='http://chat-chat-q7ig6gdd00ou.3zvkjbft7q.us-east-1.elasticbeanstalk.com';(i.onload=function(){x=w.document;j=x.createElement('script');j.src='js/app-bootstrap.js';x.body.appendChild(j);})()

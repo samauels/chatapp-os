@@ -1,0 +1,80 @@
+#widget .navbar {
+    background-color: #19007c;
+    color: #ffffff;
+}
+
+#widget .users {
+    position: fixed;
+    top: 54px;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    border-right: 1px solid #eee;
+}
+
+#widget .users-header {
+    background-color: #00a5c3;
+    color: #ffffff;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+#widget .users-body {
+    margin-bottom: 10px;
+}
+
+#widget .users-group {
+    width: 100%;
+}
+
+#widget .messages-header {
+    background-color: #00a5c3;
+    color: #ffffff;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+#widget .messages-body {
+    padding-top: 1rem;
+    overflow: auto;
+    height: 395px;
+}
+
+#widget .messages-footer {
+    padding-top: 1rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+#widget .message-author {
+    float: right;
+}
+
+#widget .list-group {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#widget .list-group-item {
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    word-break: break-word;
+}
+
+#widget .list-group-item:first-child {
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.oi {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+[v-cloak] {
+  display: none;
+}
