@@ -1,5 +1,23 @@
-<div id="widget">
-    <nav class="navbar navbar-inverse" v-if="chatActive">
+<template>
+<div>
+        <beautiful-chat
+        :participants="participants"
+        :titleImageUrl="titleImageUrl"
+        :onMessageWasSent="onMessageWasSent"
+        :messageList="messageList"
+        :newMessagesCount="newMessagesCount"
+        :isOpen="isChatOpen"
+        :close="closeChat"
+        :open="openChat"
+        :showEmoji="true"
+        :showFile="true"
+        :showTypingIndicator="showTypingIndicator"
+        :colors="colors"
+        :alwaysScrollToBottom="alwaysScrollToBottom"
+        :messageStyling="messageStyling" />
+
+
+    <!-- <nav class="navbar navbar-inverse" v-if="chatActive">
         Chat
         <span>
             <span class="oi oi-minus" title="Minimise" aria-hidden="true" v-on:click="hideChat(0)"></span>
@@ -58,5 +76,7 @@
                 </div>
             </main>
         </div>
-    </div>
+    </div> -->
+    
 </div>
+</template>
